@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Daily Fantasy</title>
+  
+  <subtitle>Coding Life</subtitle>
+  <link href="https://elon-lee.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://elon-lee.github.io/"/>
+  <updated>2022-11-22T15:52:04.207Z</updated>
+  <id>https://elon-lee.github.io/</id>
+  
+  <author>
+    <name>Elonlee</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>怎样才能学好英文?</title>
+    <link href="https://elon-lee.github.io/2022/11/22/ying-yu/my-first-english-blog/"/>
+    <id>https://elon-lee.github.io/2022/11/22/ying-yu/my-first-english-blog/</id>
+    <published>2022-11-22T15:16:25.000Z</published>
+    <updated>2022-11-22T15:52:04.207Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="英语" scheme="https://elon-lee.github.io/categories/%E8%8B%B1%E8%AF%AD/"/>
+    
+    
+    <category term="English" scheme="https://elon-lee.github.io/tags/English/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JAVA设计模式之(单例模式)</title>
+    <link href="https://elon-lee.github.io/2022/11/17/ji-zhu/java/java-she-ji-mo-shi-zhi-dan-li-mo-shi/"/>
+    <id>https://elon-lee.github.io/2022/11/17/ji-zhu/java/java-she-ji-mo-shi-zhi-dan-li-mo-shi/</id>
+    <published>2022-11-16T23:47:07.000Z</published>
+    <updated>2022-11-22T15:09:17.034Z</updated>
+    
+    
+    
+    
+    <category term="设计模式" scheme="https://elon-lee.github.io/categories/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    
+    
+    <category term="Java" scheme="https://elon-lee.github.io/tags/Java/"/>
+    
+    <category term="设计模式" scheme="https://elon-lee.github.io/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo Markdown 语法详解</title>
+    <link href="https://elon-lee.github.io/2022/11/17/ji-zhu/hexo-markdown-grammer/"/>
+    <id>https://elon-lee.github.io/2022/11/17/ji-zhu/hexo-markdown-grammer/</id>
+    <published>2022-11-16T23:47:07.000Z</published>
+    <updated>2022-11-23T15:23:38.860Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;字体样式&quot;&gt;&lt;a href=&quot;#字体样式&quot; class=&quot;headerlink&quot; title=&quot;字体样式&quot;&gt;&lt;/a&gt;字体样式&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;按键样式&lt;/p&gt;
+&lt;kbd style=&quot;border:1px solid</summary>
+        
+      
+    
+    
+    
+    <category term="技术" scheme="https://elon-lee.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="hexo" scheme="https://elon-lee.github.io/tags/hexo/"/>
+    
+    <category term="markdown" scheme="https://elon-lee.github.io/tags/markdown/"/>
+    
+  </entry>
+  
+</feed>

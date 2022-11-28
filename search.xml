@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>怎样才能学好英文?</title>
+      <link href="/2022/11/22/ying-yu/my-first-english-blog/"/>
+      <url>/2022/11/22/ying-yu/my-first-english-blog/</url>
+      
+        <content type="html"><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p><code>大多数情况下你在做一件事情的过程中之所以目标不够明确,最大的问题可能就在于不善于总结,</code></p><p><code>学过的知识也是比较零散,所以知识体系的建立势在必行.</code></p><blockquote><p>学英语和学其它任何一门语言一样也是在于听到读出来最后再是写出来,</p><p>所以需要做大量的阅读,大量的听力,大量的朗读,练习英语预感,找到母语者</p><p>的发音习惯真正去融入到一门语言当中去</p></blockquote><h3 id="学习步骤"><a href="#学习步骤" class="headerlink" title="学习步骤"></a>学习步骤</h3><ol><li><p>分级阅读,每天练习一篇英文文章,最好能从level比较低的开始比如牛津书虫是我推荐,</p><p>也是我正在读的英文书籍,里面包含了大量的有趣的短文故事,可以快速增加你的词汇量</p><p>和预感能力</p></li><li><p>新概念练习,每天练习一篇新概念习题,新概念可以由浅入深的将你的语法提高起来,当然</p></li><li><p>这个过程是漫长的需要不断积累不断实践.</p></li></ol><h3 id="学习资料"><a href="#学习资料" class="headerlink" title="学习资料"></a>学习资料</h3><p><a href="http://www.youtube.com/" target="_blank" rel="noopener">推荐上油管去学习</a></p><p><a href="www.bilibli.com">推荐上B站去学习</a></p><p><a href="www.ted.com">推荐上Ted去学习</a></p><p><img src="https://gcore.jsdelivr.net/gh/shw2018/cdn@1.0/sakura/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://gcore.jsdelivr.net/gh/Elon-Lee/Pic-Go/blog/202211222349188.webp" alt="最后分享一张美图"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 英语 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> English </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>JAVA设计模式之(单例模式)</title>
+      <link href="/2022/11/17/ji-zhu/java/java-she-ji-mo-shi-zhi-dan-li-mo-shi/"/>
+      <url>/2022/11/17/ji-zhu/java/java-she-ji-mo-shi-zhi-dan-li-mo-shi/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      <categories>
+          
+          <category> 设计模式 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Java </tag>
+            
+            <tag> 设计模式 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hexo Markdown 语法详解</title>
+      <link href="/2022/11/17/ji-zhu/hexo-markdown-grammer/"/>
+      <url>/2022/11/17/ji-zhu/hexo-markdown-grammer/</url>
+      
+        <content type="html"><![CDATA[<h3 id="字体样式"><a href="#字体样式" class="headerlink" title="字体样式"></a>字体样式</h3><ul><li><p>按键样式</p><kbd style="border:1px solid gray;font-size:1.2em;box-shadow:1px 0 1px 0 #eee, 0 2px 0 2px #ccc, 0 2px 0 3px #444;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;margin:2px 3px;padding:1px 5px;">Ctrl</kbd> / <kbd style="border:1px solid gray;font-size:1.2em;box-shadow:1px 0 1px 0 #eee, 0 2px 0 2px #ccc, 0 2px 0 3px #444;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;margin:2px 3px;padding:1px 5px;">Command⌘</kbd> +  <kbd style="border:1px solid gray;font-size:1.2em;box-shadow:1px 0 1px 0 #eee, 0 2px 0 2px #ccc, 0 2px 0 3px #444;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;margin:2px 3px;padding:1px 5px;">A</kbd> </li><li><p>标注颜色</p><p><code>here it is</code></p></li><li><p>加粗</p><p><strong>加粗文本</strong></p></li><li><p>删除文本</p><p><del>删除文本</del></p></li><li><p>引用文本</p><blockquote><p>引用名人名句</p></blockquote></li></ul><h3 id="插入链接或图片"><a href="#插入链接或图片" class="headerlink" title="插入链接或图片"></a>插入链接或图片</h3><ol><li><p>插入链接</p><p>链接: <a href="https://www.csdn.net/" target="_blank" rel="noopener">link</a>.</p></li><li><p>插入图片</p><p><img src="https://gcore.jsdelivr.net/gh/shw2018/cdn@1.0/sakura/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://imgconvert.csdnimg.cn/aHR0cHM6Ly9hdmF0YXIuY3Nkbi5uZXQvNy83L0IvMV9yYWxmX2h4MTYzY29tLmpwZw" alt="Alt"></p></li></ol><h3 id="插入一段代码"><a href="#插入一段代码" class="headerlink" title="插入一段代码"></a>插入一段代码</h3><pre class="line-numbers language-javascript"><code class="language-javascript"><span class="token comment" spellcheck="true">// An highlighted block</span><span class="token keyword">var</span> foo <span class="token operator">=</span> <span class="token string">'bar'</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><h3 id="生成一个列表"><a href="#生成一个列表" class="headerlink" title="生成一个列表"></a>生成一个列表</h3><ul><li>项目<ul><li>项目<ul><li>项目</li></ul></li></ul></li></ul><ol><li>项目1</li><li>项目2</li><li>项目3</li></ol><h3 id="创建一个表格"><a href="#创建一个表格" class="headerlink" title="创建一个表格"></a>创建一个表格</h3><p>使用<code>:---------:</code>居中<br>使用<code>:----------</code>居左<br>使用<code>----------:</code>居右</p><table><thead><tr><th align="center">第一列</th><th align="right">第二列</th><th align="left">第三列</th></tr></thead><tbody><tr><td align="center">第一列文本居中</td><td align="right">第二列文本居右</td><td align="left">第三列文本居左</td></tr></tbody></table><table><thead><tr><th>TYPE</th><th>ASCII</th><th>HTML</th></tr></thead><tbody><tr><td>Single backticks</td><td><code>'Isn't this fun?'</code></td><td>‘Isn’t this fun?’</td></tr><tr><td>Quotes</td><td><code>"Isn't this fun?"</code></td><td>“Isn’t this fun?”</td></tr><tr><td>Dashes</td><td><code>-- is en-dash, --- is em-dash</code></td><td>– is en-dash, — is em-dash</td></tr></tbody></table><h3 id="创建一个注脚"><a href="#创建一个注脚" class="headerlink" title="创建一个注脚"></a>创建一个注脚</h3><p>一个具有注脚的文本。<a href="%E6%B3%A8%E8%84%9A%E7%9A%84%E8%A7%A3%E9%87%8A">^2</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 技术 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+            <tag> markdown </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
