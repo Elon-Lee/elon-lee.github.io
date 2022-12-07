@@ -6,7 +6,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="Java解析XMl重型武器JAXB详解, UESTC CV DeepLearning MachineLearning Elonlee sunhw Hongwei 计算机视觉 深度学习">
+    <meta name="keywords" content="Java解析XML重型武器JAXB详解, UESTC CV DeepLearning MachineLearning Elonlee sunhw Hongwei 计算机视觉 深度学习">
     <meta name="baidu-site-verification" content="fmlEuI34ir" />
     <meta name="google-site-verification" content="KeoTn_OFy4ndJwXNmm2gMeQfPhd7alqE9vQDwI32KCY" />
     <meta name="description" content="
@@ -18,7 +18,7 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>Java解析XMl重型武器JAXB详解 | Daily Fantasy</title>
+    <title>Java解析XML重型武器JAXB详解 | Daily Fantasy</title>
     <link rel="icon" type="image/x-icon, image/vnd.microsoft.icon" href="/favicon.ico">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/font-awesome.min.css">
@@ -605,13 +605,13 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/18.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/22.jpg')">
     <div class="container">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
                     <div class="description center-align post-title">
-                        Java解析XMl重型武器JAXB详解
+                        Java解析XML重型武器JAXB详解
                     </div>
                 </div>
             </div>
@@ -768,7 +768,7 @@
                     
                     <div class="info-break-policy">
                         <i class="fa fa-clock-o fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                        7 分
+                        8 分
                     </div>
                     
                 
@@ -789,22 +789,22 @@
 <p><code>简述</code> : JDK早期版本就自带JAXB转换功能,一直以来都是JAVA集大成之作,可所谓是JAVA之重器,但是很多时候我们使用过程中并不需要太过复杂可能只是简单的XML序列化和反序列化,今天我就解析XML和生成XML过程中遇到的问题再次记录,希望更多的小伙伴能够找到问题的解决办法.</p>
 </blockquote>
 <p>首先是序列化XML,JAVA提供了以下注解用于描述一个实体对象转化到XML的过程</p>
-<ol>
+<h3 id="基本用法"><a href="#基本用法" class="headerlink" title="基本用法"></a>基本用法</h3><ol>
 <li><p>@XmlRootElement</p>
 <p>该注解用于类级别,对应xml的根元素,常与 @XmlType 和 @XmlAccessorType一起使用，主要的作用是映射xml的根节点,name属性标注根节点的名称.</p>
 </li>
-<li><p>@XmlElement<br>　将Java对象的属性映射为xml的节点，在使用@XmlElement时，可通过name属性改变java对象属性在xml中显示的名称。</p>
+<li><p>@XmlElement<br>将Java对象的属性映射为xml的节点，在使用@XmlElement时，可通过name属性改变java对象属性在xml中显示的名称。</p>
 <pre class="line-numbers language-java"><code class="language-java"><span class="token annotation punctuation">@XmlElement</span><span class="token punctuation">(</span>name<span class="token operator">=</span><span class="token string">"class"</span><span class="token punctuation">)</span>
 <span class="token keyword">private</span> String clz<span class="token punctuation">;</span>
 <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
 </li>
 <li><p>@XmlElements</p>
-<p>　当节点下面包含多个相同的子节点时，该注解可以映射成一个JavaBean的集合属性,其中注解中value的属性对应的是一个@XmlElement的集合</p>
+<p>当节点下面包含多个相同的子节点时，该注解可以映射成一个JavaBean的集合属性,其中注解中value的属性对应的是一个@XmlElement的集合</p>
 <pre class="line-numbers language-java"><code class="language-java"><span class="token annotation punctuation">@XmlElements</span><span class="token punctuation">(</span>value <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token annotation punctuation">@XmlElement</span><span class="token punctuation">(</span>name <span class="token operator">=</span> <span class="token string">"select"</span><span class="token punctuation">,</span> type <span class="token operator">=</span> Select<span class="token punctuation">.</span><span class="token keyword">class</span><span class="token punctuation">)</span><span class="token punctuation">}</span><span class="token punctuation">)</span>
 <span class="token keyword">private</span> List<span class="token operator">&lt;</span>Select<span class="token operator">></span> selects<span class="token punctuation">;</span>
 <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
 </li>
-<li><p>@XmlAccessorType<br>　用于指定由java对象生成xml文件时对java对象属性的访问方式。常与@XmlRootElement、@XmlType一起使用。它的属性值是XmlAccessType的4个枚举值，分别为:</p>
+<li><p>@XmlAccessorType<br>用于指定由java对象生成xml文件时对java对象属性的访问方式。常与@XmlRootElement、@XmlType一起使用。它的属性值是XmlAccessType的4个枚举值，分别为:</p>
 <ul>
 <li><strong>XmlAccessType.FIELD:java对象中的所有成员变量</strong></li>
 <li><strong>XmlAccessType.PROPERTY：java对象中所有通过getter/setter方式访问的成员变量</strong></li>
@@ -814,14 +814,27 @@
 <p>　　注意：@XmlAccessorType的默认访问级别是XmlAccessType.PUBLIC_MEMBER，因此，如果java对象中的private成员变量设置了public权限的getter/setter方法，就不要在private变量上使用@XmlElement和@XmlAttribute注解，否则在由java对象生成xml时会报同一个属性在java类里存在两次的错误。同理，如果@XmlAccessorType的访问权限为XmlAccessType.NONE，如果在java的成员变量上使用了@XmlElement或@XmlAttribute注解，这些成员变量依然可以映射到xml文件。</p>
 <p>　　注意：虽然@XmlAccessorType为XmlAccessType.NONE,但是在java类的私有属性上加了@XmlAttribute和@XmlElement注解后，这些私有成员会映射生成xml的元素</p>
 </li>
-<li><p>@XmlAccessorOrder<br>　用于对java对象生成的xml元素进行排序。它有两个属性值：<br>　AccessorOrder.ALPHABETICAL：对生成的xml元素按字母书序排序<br>　XmlAccessOrder.UNDEFINED:不排序</p>
+<li><p>@XmlAccessorOrder<br> 用于对java对象生成的xml元素进行排序。它有两个属性值：<br>　AccessorOrder.ALPHABETICAL：对生成的xml元素按字母书序排序<br>　XmlAccessOrder.UNDEFINED:不排序</p>
 </li>
-<li><p>@XmlTransient<br>　用于标示在由java对象映射xml时，忽略此属性。即，在生成的xml文件中不出现此元素。</p>
+<li><p>@XmlTransient<br> 用于标示在由java对象映射xml时，忽略此属性。即，在生成的xml文件中不出现此元素。</p>
 </li>
-<li><p><strong>@XmlJavaTypeAdapter</strong><br>　常用在转换比较复杂的对象时，如map类型或者格式化日期等。使用此注解时，需要自己写一个adapter类继承XmlAdapter抽象类，并实现里面的方法。</p>
+<li><p><strong>@XmlJavaTypeAdapter</strong><br> 常用在转换比较复杂的对象时，如map类型或者格式化日期等。使用此注解时，需要自己写一个adapter类继承XmlAdapter抽象类，并实现里面的方法。</p>
 </li>
-<li><p>工具类示例代码</p>
-<pre class="line-numbers language-java"><code class="language-java"><span class="token keyword">import</span> org<span class="token punctuation">.</span>xml<span class="token punctuation">.</span>sax<span class="token punctuation">.</span>Attributes<span class="token punctuation">;</span>
+</ol>
+<h3 id="注意避坑"><a href="#注意避坑" class="headerlink" title="注意避坑"></a>注意避坑</h3><p>避坑1:XML转换到Java对象根元素带有命名空间比如</p>
+<messages xmlns="http://www.neusoft.com/hit/rhin" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://www.neusoft.com/hit/rhin file:///e:/request_message.xsd">
+
+
+
+<blockquote>
+<p>类似这种申明直接反序列化会报错:</p>
+<p>javax.xml.bind.UnmarshalException: unexpected element (uri:””, local:”messages”). Expected elements are &lt;{<a href="http://www.neusoft.com/hit/rhin%7Dmessages>" target="_blank" rel="noopener">http://www.neusoft.com/hit/rhin}messages&gt;</a><br>    at com.sun.xml.bind.v2.runtime.unmarshaller.UnmarshallingContext.handleEvent(UnmarshallingContext.java:712)</p>
+<p>这里我需要重点介绍 <code>工具类</code> NamespaceFilter的用法,很多情况下我们在解析XML到Java对象的时候</p>
+<p>NamespaceFilter提供了自定义SAXReader解析器的方法跳过命名空间可以正常解析XML</p>
+</blockquote>
+<p>避坑2:</p>
+<p>如果你希望转换到XML输出空节点,那么对象的property一定要赋初始值,比如String对象赋””</p>
+<h3 id="工具类以及示例代码"><a href="#工具类以及示例代码" class="headerlink" title="工具类以及示例代码"></a>工具类以及示例代码</h3><pre class="line-numbers language-java"><code class="language-java"><span class="token keyword">import</span> org<span class="token punctuation">.</span>xml<span class="token punctuation">.</span>sax<span class="token punctuation">.</span>Attributes<span class="token punctuation">;</span>
 <span class="token keyword">import</span> org<span class="token punctuation">.</span>xml<span class="token punctuation">.</span>sax<span class="token punctuation">.</span>InputSource<span class="token punctuation">;</span>
 <span class="token keyword">import</span> org<span class="token punctuation">.</span>xml<span class="token punctuation">.</span>sax<span class="token punctuation">.</span>SAXException<span class="token punctuation">;</span>
 <span class="token keyword">import</span> org<span class="token punctuation">.</span>xml<span class="token punctuation">.</span>sax<span class="token punctuation">.</span>XMLReader<span class="token punctuation">;</span>
@@ -969,22 +982,7 @@
 <span class="token punctuation">}</span>
  
 <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-</li>
-</ol>
-<p><strong>以上内容是JAXB的基本用法和JAXBUtil工具类</strong></p>
-<p>避坑1:</p>
-<blockquote>
-<p>这里我需要重点介绍 <code>工具类</code> NamespaceFilter的用法,很多情况下我们在解析XML到Java对象的时候</p>
-<p>会遇到XML带有命名空间比如 </p>
-<messages xmlns="http://www.neusoft.com/hit/rhin" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://www.neusoft.com/hit/rhin file:///e:/request_message.xsd">
-
-<p>类似这种申明直接反序列化会报错:</p>
-<p>javax.xml.bind.UnmarshalException: unexpected element (uri:””, local:”messages”). Expected elements are &lt;{<a href="http://www.neusoft.com/hit/rhin%7Dmessages>" target="_blank" rel="noopener">http://www.neusoft.com/hit/rhin}messages&gt;</a><br>    at com.sun.xml.bind.v2.runtime.unmarshaller.UnmarshallingContext.handleEvent(UnmarshallingContext.java:712)</p>
-<p>NamespaceFilter提供了自定义SAXReader解析器的方法跳过命名空间可以正常解析XML</p>
-</messages></blockquote>
-<p>避坑2:</p>
-<p>如果你希望转换到XML输出空节点,那么对象的property一定要赋初始值,比如String对象赋””</p>
-<pre class="line-numbers language-java"><code class="language-java"><span class="token keyword">import</span> lombok<span class="token punctuation">.</span>Data<span class="token punctuation">;</span>
+<h3 id="运行示例代码"><a href="#运行示例代码" class="headerlink" title="运行示例代码"></a>运行示例代码</h3><pre class="line-numbers language-java"><code class="language-java"><span class="token keyword">import</span> lombok<span class="token punctuation">.</span>Data<span class="token punctuation">;</span>
 
 <span class="token keyword">import</span> javax<span class="token punctuation">.</span>xml<span class="token punctuation">.</span>bind<span class="token punctuation">.</span>annotation<span class="token punctuation">.</span>XmlAccessType<span class="token punctuation">;</span>
 <span class="token keyword">import</span> javax<span class="token punctuation">.</span>xml<span class="token punctuation">.</span>bind<span class="token punctuation">.</span>annotation<span class="token punctuation">.</span>XmlAccessorType<span class="token punctuation">;</span>
@@ -1070,6 +1068,14 @@
 <span class="token punctuation">}</span>
 <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 <p>生成的XML格式如下:</p>
+<p>调用工具类执行序列化和反序列化</p>
+<pre class="line-numbers language-java"><code class="language-java"><span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span>String<span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span> <span class="token keyword">throws</span> Exception <span class="token punctuation">{</span>
+
+   String xmlStr <span class="token operator">=</span> JaxbUtil<span class="token punctuation">.</span><span class="token function">convertToXml</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">ResponseMessage</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">;</span> 
+    System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>xmlStr<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>JaxbUtil<span class="token punctuation">.</span><span class="token function">convertToBean</span><span class="token punctuation">(</span>xmlStr<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 <pre class="line-numbers language-xml"><code class="language-xml"><span class="token prolog">&lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>messages</span><span class="token punctuation">></span></span>
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>business</span><span class="token punctuation">></span></span>
@@ -1113,8 +1119,8 @@
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>switchset</span><span class="token punctuation">></span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>messages</span><span class="token punctuation">></span></span>
 <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<p>希望这篇文章能够帮助到你,如果你有以为可以随时联系我!</p>
-
+<p>希望这篇文章能够帮助到你,如果你有疑问可以随时联系我!</p>
+</messages>
             </div>
             <hr/>
 
@@ -1264,7 +1270,7 @@
                     </span>
                     <a href="https://elon-lee.github.io" class="b-link-green">Daily Fantasy</a>
                     <i class="fa fa-angle-right fa-lg fa-fw text-color"></i>
-                    <a href="/2022/12/07/ji-zhu/java/j2ee-chong-xing-wu-qi-jaxb-jie-xi-xml/" class="b-link-green">Java解析XMl重型武器JAXB详解</a>
+                    <a href="/2022/12/07/ji-zhu/java/j2ee-chong-xing-wu-qi-jaxb-jie-xi-xml/" class="b-link-green">Java解析XML重型武器JAXB详解</a>
                 </p>
             </div>
 
@@ -1593,9 +1599,9 @@
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/18.jpg" class="responsive-img" alt="Java解析XMl重型武器JAXB详解">
+                        <img src="/medias/featureimages/22.jpg" class="responsive-img" alt="Java解析XML重型武器JAXB详解">
                         
-                        <span class="card-title">Java解析XMl重型武器JAXB详解</span>
+                        <span class="card-title">Java解析XML重型武器JAXB详解</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
