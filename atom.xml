@@ -6,7 +6,7 @@
   <link href="https://elon-lee.github.io/atom.xml" rel="self"/>
   
   <link href="https://elon-lee.github.io/"/>
-  <updated>2022-11-22T15:52:04.207Z</updated>
+  <updated>2022-12-07T15:34:48.404Z</updated>
   <id>https://elon-lee.github.io/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Java解析XMl重型武器JAXB详解</title>
+    <link href="https://elon-lee.github.io/2022/12/07/ji-zhu/java/j2ee-chong-xing-wu-qi-jaxb-jie-xi-xml/"/>
+    <id>https://elon-lee.github.io/2022/12/07/ji-zhu/java/j2ee-chong-xing-wu-qi-jaxb-jie-xi-xml/</id>
+    <published>2022-12-07T15:13:54.000Z</published>
+    <updated>2022-12-07T15:34:48.404Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;简述&lt;/code&gt; :</summary>
+        
+      
+    
+    
+    
+    <category term="JAVA" scheme="https://elon-lee.github.io/categories/JAVA/"/>
+    
+    
+    <category term="Java" scheme="https://elon-lee.github.io/tags/Java/"/>
+    
+  </entry>
   
   <entry>
     <title>怎样才能学好英文?</title>
